@@ -1,0 +1,18 @@
+USER='usuario' PASSWORD='Tecnologia123*' DATABASE='database_usuario' PORT='5432' HOST='localhost' PORT_SRV='3001'
+
+[UNIT]
+Description=My Node Server
+After=multi-user.target
+
+[Service]
+ExecStart=/usr/bin/node/home/ec2-user/NodeJS-CRUD-PostgresSQL/index.js
+Restart=always
+RestartSec=10
+StandardOutput=syslog
+StandardError=syslog
+SyslogIdentifier=my-node-server
+User=ec2-user
+EnvironmentFile=/home/ec2-user/NodeJS-CRUD-PostgresSQL/app.env
+
+[Install]
+WantedBy=multi-user.target
