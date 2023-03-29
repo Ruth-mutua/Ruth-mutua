@@ -1,7 +1,5 @@
 - 👋 Hi, I’m @Ruth-mutua
-- 👀 I’m interested in creating distributed systems
-- 🌱 I’m currently learning Parallel and Distributed Systems
-- 💞️ I’m looking to collaborate on the designing of my project
+USER='usuario' PASSWORD='Tecnologia123*' DATABASE='database_usuario' PORT='5432' HOST='localhost' PORT_SRV='3001'
 - 📫 How to reach me mutuandinda82@gmail.com
 
 <!---
