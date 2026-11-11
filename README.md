@@ -56,36 +56,34 @@ spec:
 <td colspan="2" valign="top">
 <img src="./assets/cases/kubernetes.svg" alt="Kubernetes platforms" width="100%" />
 <br /><b>Kubernetes platforms</b>
-<br /><sub>Production clusters across staging, production and DR: autoscaling, network policies, safe rollouts, and disaster recovery that has actually been drilled.</sub>
+<br /><sub>Clusters a team doesn't have to babysit: autoscaling that follows real load, capacity right-sized so you pay for what you use, and disaster recovery that has been drilled, not just diagrammed.<br /><code>outcome: uptime without the babysitting</code></sub>
 </td>
 </tr>
 <tr>
 <td width="50%" valign="top">
 <img src="./assets/cases/iac.svg" alt="Infrastructure as code" width="100%" />
 <br /><b>Infrastructure as code</b>
-<br /><sub>Terraform for clusters and cloud, Kustomize overlays for deployments, CI/CD from merge to production.</sub>
+<br /><sub>Every environment rebuildable from code, reviewed instead of clicked, with no drift between staging and production.<br /><code>outcome: safe, repeatable releases</code></sub>
 </td>
 <td width="50%" valign="top">
 <img src="./assets/cases/security.svg" alt="Cloud security" width="100%" />
 <br /><b>Cloud security</b>
-<br /><sub>Workload identity over static keys, vault-backed secrets, default-deny networking, least privilege.</sub>
+<br /><sub>No static keys to leak, secrets in a vault, networks that deny by default, controls ready for SOC 2 and ISO 27001.<br /><code>outcome: audit-ready by default</code></sub>
 </td>
 </tr>
 <tr>
 <td width="50%" valign="top">
 <img src="./assets/cases/observability.svg" alt="Reliability & observability" width="100%" />
 <br /><b>Reliability & observability</b>
-<br /><sub>Alerts that reach a person, then root-cause analysis and postmortems so failures aren't repeated.</sub>
+<br /><sub>Problems found before customers find them, fixed at the root cause, and written up so they don't happen twice.<br /><code>outcome: fewer pages, faster recovery</code></sub>
 </td>
 <td width="50%" valign="top">
 <img src="./assets/cases/ai-gateway.svg" alt="AI infrastructure" width="100%" />
 <br /><b>AI infrastructure</b>
-<br /><sub>One identity-aware gateway for model access: attribution, quotas, routing across hosted and self-hosted models.</sub>
+<br /><sub>Every model call tied to a customer, spend capped before it surprises anyone, and free to switch models without touching the apps.<br /><code>outcome: AI spend you can see and control</code></sub>
 </td>
 </tr>
 </table>
-
-<sub>📁 <b>Projects:</b> <a href="https://github.com/Ruth-mutua/Ruth-mutua.github.io">portfolio site</a> · <a href="https://github.com/Prescott-Data/jarviscore-framework">JarvisCore</a> · <a href="https://github.com/Ruth-mutua/inventory-sys-gateway">inventory-sys-gateway</a> · <a href="https://github.com/Ruth-mutua/TransactGuard">TransactGuard</a> · <a href="https://ruth-mutua.github.io">more on my site →</a></sub>
 
 ### `$ tail -n 4 ~/writing.log`
 
