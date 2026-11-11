@@ -1,0 +1,74 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 420" width="1200" height="420" role="img" aria-label="Terminal: whoami ruth-mutua, platform and cloud engineer. Kubernetes and the art of not getting paged.">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#0c1220"/><stop offset="1" stop-color="#06080d"/></linearGradient>
+    <linearGradient id="grad" x1="0" x2="1"><stop offset="0" stop-color="#22d3ee"/><stop offset="0.55" stop-color="#818cf8"/><stop offset="1" stop-color="#c084fc"/></linearGradient>
+    <linearGradient id="trail" x1="0" x2="1"><stop offset="0" stop-color="#22d3ee" stop-opacity="0"/><stop offset="1" stop-color="#c084fc"/></linearGradient>
+    <radialGradient id="glow1" cx="0.85" cy="0.1" r="0.6"><stop offset="0" stop-color="#818cf8" stop-opacity="0.35"/><stop offset="1" stop-color="#818cf8" stop-opacity="0"/></radialGradient>
+    <radialGradient id="glow2" cx="0.05" cy="1" r="0.6"><stop offset="0" stop-color="#22d3ee" stop-opacity="0.22"/><stop offset="1" stop-color="#22d3ee" stop-opacity="0"/></radialGradient>
+    <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse"><path d="M32 0H0V32" fill="none" stroke="#94a3b8" stroke-opacity="0.07"/></pattern>
+    <clipPath id="frame"><rect width="1200" height="420" rx="18"/></clipPath>
+  </defs>
+  <style>
+    .mono { font-family: 'JetBrains Mono', 'Fira Code', 'SF Mono', Menlo, Consolas, 'DejaVu Sans Mono', monospace; }
+    .sans { font-family: 'Segoe UI', 'Helvetica Neue', Helvetica, Arial, sans-serif; }
+        .cursor { animation: blink 1s steps(1) infinite; }
+    @keyframes blink { 50% { opacity: 0; } }
+    .plane { offset-path: path('M650 394 L780 394 C 880 392, 980 250, 1260 30'); offset-rotate: auto; animation: takeoff 7s cubic-bezier(0.45, 0, 0.8, 0.6) infinite; }
+    @keyframes takeoff { 0% { offset-distance: 0%; opacity: 0; } 6% { opacity: 1; } 92% { opacity: 1; } 100% { offset-distance: 100%; opacity: 0; } }
+    .prop { transform-box: fill-box; transform-origin: center; animation: spin 0.12s linear infinite; }
+    @keyframes spin { 50% { transform: scaleY(0.25); } }
+    .light { animation: twinkle 1.8s ease-in-out infinite; }
+    @keyframes twinkle { 50% { opacity: 0.25; } }
+  </style>
+
+  <g clip-path="url(#frame)">
+    <rect width="1200" height="420" fill="url(#bg)"/>
+    <rect width="1200" height="420" fill="url(#grid)"/>
+    <rect width="1200" height="420" fill="url(#glow1)"/>
+    <rect width="1200" height="420" fill="url(#glow2)"/>
+
+    <!-- terminal title bar -->
+    <rect width="1200" height="40" fill="#ffffff" fill-opacity="0.03"/>
+    <line x1="0" y1="40" x2="1200" y2="40" stroke="#94a3b8" stroke-opacity="0.15"/>
+    <circle cx="24" cy="20" r="6" fill="#f87171"/><circle cx="44" cy="20" r="6" fill="#fbbf24"/><circle cx="64" cy="20" r="6" fill="#34d399"/>
+    <text x="1176" y="25" text-anchor="end" class="mono" font-size="13" fill="#64708a">ruth@nairobi: ~</text>
+
+    <!-- terminal session -->
+    <g class="mono" font-size="17">
+      <text x="36" y="86" class="line" style="animation-delay:0.2s"><tspan fill="#34d399">$</tspan><tspan fill="#e7ecf3"> whoami</tspan></text>
+      <text x="36" y="114" class="line" style="animation-delay:0.6s" fill="#cbd5e1">ruth-mutua  <tspan fill="#64708a">#</tspan> <tspan fill="#a78bfa">platform &amp; cloud engineer</tspan> <tspan fill="#64708a">· Nairobi, KE · UTC+3</tspan></text>
+      <text x="36" y="152" class="line" style="animation-delay:1.0s"><tspan fill="#34d399">$</tspan><tspan fill="#e7ecf3"> echo $MOTTO</tspan></text>
+    </g>
+
+    <!-- the headline, typed -->
+    <g class="sans" font-weight="700">
+      <text x="34" y="214" font-size="46" fill="#e7ecf3" class="line" style="animation-delay:1.4s"><tspan class="type" style="animation-delay:1.4s">Kubernetes and the art of</tspan></text>
+      <text x="34" y="268" font-size="46" fill="url(#grad)" class="line" style="animation-delay:2.7s"><tspan class="type" style="animation-delay:2.7s">not getting paged.</tspan></text>
+    </g>
+
+    <g class="mono" font-size="16">
+      <text x="36" y="320" class="line" style="animation-delay:3.6s"><tspan fill="#34d399">$</tspan><tspan fill="#e7ecf3"> kubectl get focus</tspan></text>
+      <text x="36" y="348" class="line" style="animation-delay:4.0s" fill="#94a0b2"><tspan>kubernetes</tspan><tspan x="166">terraform</tspan><tspan x="286">aws/azure/gcp</tspan><tspan x="438">security</tspan><tspan x="540" fill="#34d399">Running</tspan></text>
+      <text x="36" y="384" class="line" style="animation-delay:4.4s"><tspan fill="#34d399">$</tspan><tspan fill="#e7ecf3"> ./live-to-fly.sh</tspan><tspan class="cursor" fill="#22d3ee"> ▍</tspan></text>
+    </g>
+
+    <!-- runway + take-off on the right -->
+    <rect x="630" y="402" width="570" height="4" fill="#1e293b"/>
+    <g fill="#fbbf24">
+      <circle class="light" cx="660" cy="398" r="2"/><circle class="light" cx="720" cy="398" r="2" style="animation-delay:.2s"/><circle class="light" cx="780" cy="398" r="2" style="animation-delay:.4s"/><circle class="light" cx="840" cy="398" r="2" style="animation-delay:.6s"/><circle class="light" cx="900" cy="398" r="2" style="animation-delay:.8s"/><circle class="light" cx="960" cy="398" r="2" style="animation-delay:1s"/>
+    </g>
+    <path d="M650 394 L780 394 C 880 392, 980 250, 1260 30" fill="none" stroke="url(#trail)" stroke-width="2" stroke-dasharray="2 9" stroke-linecap="round"/>
+    <g class="plane">
+      <g transform="translate(-6 -6)">
+        <path d="M-36 -10 L-30 -30 L-22 -30 L-14 -8 Z" fill="url(#grad)"/>
+        <path d="M-36 -4 Q-30 -12 -8 -12 L22 -12 Q34 -11 38 -3 Q36 4 22 5 L-8 5 Q-28 5 -36 -4 Z" fill="#e7ecf3"/>
+        <rect x="-6" y="-17" width="30" height="4" rx="2" fill="#94a3b8"/>
+        <path d="M8 -11 L22 -11 L26 -4 L8 -4 Z" fill="#22d3ee" fill-opacity="0.6"/>
+        <line x1="-30" y1="-4" x2="2" y2="-4" stroke="#a78bfa" stroke-width="2"/>
+        <ellipse class="prop" cx="40" cy="-3" rx="2" ry="13" fill="#e7ecf3" fill-opacity="0.4"/>
+        <circle cx="-2" cy="11" r="3" fill="#334155"/><circle cx="28" cy="11" r="3" fill="#334155"/>
+      </g>
+    </g>
+  </g>
+  <rect x="0.5" y="0.5" width="1199" height="419" rx="18" fill="none" stroke="#94a3b8" stroke-opacity="0.2"/>
+</svg>
