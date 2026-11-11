@@ -38,15 +38,25 @@ spec:
   <img src="https://img.shields.io/badge/Google%20Cloud-0f141e?style=for-the-badge&logo=googlecloud&logoColor=4285F4" alt="Google Cloud" />
   <img src="https://img.shields.io/badge/Cloudflare-0f141e?style=for-the-badge&logo=cloudflare&logoColor=F38020" alt="Cloudflare" />
   <img src="https://img.shields.io/badge/GitHub%20Actions-0f141e?style=for-the-badge&logo=githubactions&logoColor=2088FF" alt="GitHub Actions" />
+  <img src="https://img.shields.io/badge/Jenkins-0f141e?style=for-the-badge&logo=jenkins&logoColor=D24939" alt="Jenkins" />
   <img src="https://img.shields.io/badge/Prometheus-0f141e?style=for-the-badge&logo=prometheus&logoColor=E6522C" alt="Prometheus" />
   <img src="https://img.shields.io/badge/Grafana-0f141e?style=for-the-badge&logo=grafana&logoColor=F46800" alt="Grafana" />
   <img src="https://img.shields.io/badge/Python-0f141e?style=for-the-badge&logo=python&logoColor=3776AB" alt="Python" />
   <img src="https://img.shields.io/badge/Go-0f141e?style=for-the-badge&logo=go&logoColor=00ADD8" alt="Go" />
   <img src="https://img.shields.io/badge/TypeScript-0f141e?style=for-the-badge&logo=typescript&logoColor=3178C6" alt="TypeScript" />
+  <img src="https://img.shields.io/badge/JavaScript-0f141e?style=for-the-badge&logo=javascript&logoColor=F7DF1E" alt="JavaScript" />
+  <img src="https://img.shields.io/badge/Java-0f141e?style=for-the-badge&logo=openjdk&logoColor=F89820" alt="Java" />
+  <img src="https://img.shields.io/badge/Node.js-0f141e?style=for-the-badge&logo=nodedotjs&logoColor=5FA04E" alt="Node.js" />
+  <img src="https://img.shields.io/badge/Express.js-0f141e?style=for-the-badge&logo=express&logoColor=white" alt="Express.js" />
   <img src="https://img.shields.io/badge/PostgreSQL-0f141e?style=for-the-badge&logo=postgresql&logoColor=4169E1" alt="PostgreSQL" />
+  <img src="https://img.shields.io/badge/MySQL-0f141e?style=for-the-badge&logo=mysql&logoColor=4479A1" alt="MySQL" />
   <img src="https://img.shields.io/badge/Redis-0f141e?style=for-the-badge&logo=redis&logoColor=FF4438" alt="Redis" />
+  <img src="https://img.shields.io/badge/MongoDB-0f141e?style=for-the-badge&logo=mongodb&logoColor=47A248" alt="MongoDB" />
+  <img src="https://img.shields.io/badge/DynamoDB-0f141e?style=for-the-badge&logoColor=4D72F3" alt="DynamoDB" />
   <img src="https://img.shields.io/badge/Linux-0f141e?style=for-the-badge&logo=linux&logoColor=FCC624" alt="Linux" />
   <img src="https://img.shields.io/badge/Vim-0f141e?style=for-the-badge&logo=vim&logoColor=019733" alt="Vim" />
+  <img src="https://img.shields.io/badge/VS%20Code-0f141e?style=for-the-badge&logoColor=23A9F2" alt="VS Code" />
+  <img src="https://img.shields.io/badge/IntelliJ%20IDEA-0f141e?style=for-the-badge&logo=intellijidea&logoColor=white" alt="IntelliJ IDEA" />
 </p>
 
 ### `$ kubectl get capabilities`
