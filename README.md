@@ -18,6 +18,8 @@ spec:
   role: platform & cloud engineer
   clouds: [aws, azure, gcp]
   focus:
+    - backend services & apis
+    - ci/cd & devops
     - kubernetes in production
     - infrastructure as code
     - cloud security & compliance
@@ -63,34 +65,46 @@ spec:
 
 <table>
 <tr>
-<td colspan="2" valign="top">
-<img src="./assets/cases/kubernetes.svg" alt="Kubernetes platforms" width="100%" />
-<br /><b>Kubernetes platforms</b>
-<br /><sub>Clusters a team doesn't have to babysit: autoscaling that follows real load, capacity right-sized so you pay for what you use, and disaster recovery that has been drilled, not just diagrammed.<br /><code>outcome: uptime without the babysitting</code></sub>
+<td width="50%" valign="top">
+<img src="./assets/cases/backend.svg" alt="Backend services & APIs" width="100%" />
+<br /><b>Backend services & APIs</b>
+<br /><sub>REST and gRPC APIs, async workers and queues, idempotent jobs that are safe to retry, backed by PostgreSQL, Redis and MongoDB.<br /><code>outcome: APIs that scale without surprises</code></sub>
+</td>
+<td width="50%" valign="top">
+<img src="./assets/cases/cicd.svg" alt="CI/CD & DevOps" width="100%" />
+<br /><b>CI/CD & DevOps</b>
+<br /><sub>Commit to production on its own: tests, container builds and scans, promotion through staging, one-command rollbacks.<br /><code>outcome: ship often, sleep well</code></sub>
 </td>
 </tr>
 <tr>
 <td width="50%" valign="top">
-<img src="./assets/cases/iac.svg" alt="Infrastructure as code" width="100%" />
-<br /><b>Infrastructure as code</b>
-<br /><sub>Every environment rebuildable from code, reviewed instead of clicked, with no drift between staging and production.<br /><code>outcome: safe, repeatable releases</code></sub>
+<img src="./assets/cases/kubernetes.svg" alt="Kubernetes platforms" width="100%" />
+<br /><b>Kubernetes platforms</b>
+<br /><sub>Autoscaling that follows real load, capacity right-sized so you pay for what you use, and disaster recovery that has been drilled.<br /><code>outcome: uptime without the babysitting</code></sub>
 </td>
+<td width="50%" valign="top">
+<img src="./assets/cases/iac.svg" alt="Infrastructure as code & multi-cloud" width="100%" />
+<br /><b>Infrastructure as code & multi-cloud</b>
+<br /><sub>Every environment rebuildable from code across AWS, Azure and GCP, with reusable modules and no drift between environments.<br /><code>outcome: no drift, no snowflake servers</code></sub>
+</td>
+</tr>
+<tr>
 <td width="50%" valign="top">
 <img src="./assets/cases/security.svg" alt="Cloud security" width="100%" />
 <br /><b>Cloud security</b>
 <br /><sub>No static keys to leak, secrets in a vault, networks that deny by default, controls ready for SOC 2 and ISO 27001.<br /><code>outcome: audit-ready by default</code></sub>
 </td>
-</tr>
-<tr>
 <td width="50%" valign="top">
 <img src="./assets/cases/observability.svg" alt="Reliability & observability" width="100%" />
 <br /><b>Reliability & observability</b>
 <br /><sub>Problems found before customers find them, fixed at the root cause, and written up so they don't happen twice.<br /><code>outcome: fewer pages, faster recovery</code></sub>
 </td>
-<td width="50%" valign="top">
+</tr>
+<tr>
+<td colspan="2" valign="top">
 <img src="./assets/cases/ai-gateway.svg" alt="AI infrastructure" width="100%" />
 <br /><b>AI infrastructure</b>
-<br /><sub>Every model call tied to a customer, spend capped before it surprises anyone, and free to switch models without touching the apps.<br /><code>outcome: AI spend you can see and control</code></sub>
+<br /><sub>One identity-aware front door for model access: every call tied to a customer, spend capped before it surprises anyone, and free to switch between hosted and self-hosted models.<br /><code>outcome: AI spend you can see and control</code></sub>
 </td>
 </tr>
 </table>

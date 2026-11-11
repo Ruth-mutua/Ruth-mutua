@@ -48,7 +48,7 @@
 
     <g class="mono" font-size="16">
       <text x="36" y="320" class="line" style="animation-delay:3.6s"><tspan fill="#34d399">$</tspan><tspan fill="#e7ecf3"> kubectl get focus</tspan></text>
-      <text x="36" y="348" class="line" style="animation-delay:4.0s" fill="#94a0b2"><tspan>kubernetes</tspan><tspan x="166">terraform</tspan><tspan x="286">aws/azure/gcp</tspan><tspan x="438">security</tspan><tspan x="540" fill="#34d399">Running</tspan></text>
+      <text x="36" y="348" class="line" style="animation-delay:4.0s" fill="#94a0b2"><tspan>backend</tspan><tspan x="130">ci/cd</tspan><tspan x="200">kubernetes</tspan><tspan x="320">terraform</tspan><tspan x="430">security</tspan><tspan x="530" fill="#34d399">Running</tspan></text>
       <text x="36" y="384" class="line" style="animation-delay:4.4s"><tspan fill="#34d399">$</tspan><tspan fill="#e7ecf3"> ./live-to-fly.sh</tspan><tspan class="cursor" fill="#22d3ee"> ▍</tspan></text>
     </g>
 
